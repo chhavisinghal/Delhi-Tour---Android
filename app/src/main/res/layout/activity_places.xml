@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hotel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.dell.delhiguide.Hotel">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_weight="10"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:text="The various places to visit in Delhi leave all travellers enthralled,offering a perfect blend of the old and new.From exploring heritage buildings and myriad prestigious national museums to relaxing in one of those green spaces and praying at ancient temples,there is a multitude interesting tourist places in Delhi. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#808080"
+                android:id="@+id/textView"
+                android:layout_marginLeft="6dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="7dp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:src="@drawable/p7"
+            android:layout_marginTop="18dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iv20" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:text="Popular Historical Places in Delhi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_alignLeft="@id/iv20"
+            android:layout_alignTop="@id/iv20"
+            android:layout_alignRight="@id/iv20"
+            android:layout_alignBottom="@id/iv20"/>
+
+        <ImageView
+            android:src="@drawable/p2"
+            android:layout_marginTop="18dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iv21" />
+
+        <TextView
+            android:id="@+id/tv21"
+            android:text="Dilwalon ki Dilli:the most romantic places of Delhi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_alignLeft="@id/iv21"
+            android:layout_alignTop="@id/iv21"
+            android:layout_alignRight="@id/iv21"
+            android:layout_alignBottom="@id/iv21"/>
+
+        <ImageView
+            android:src="@drawable/p3"
+            android:layout_marginTop="18dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iv22" />
+
+        <TextView
+            android:id="@+id/tv22"
+            android:text="Prominent Places of Worship in the Walled City of Delhi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_alignLeft="@id/iv22"
+            android:layout_alignTop="@id/iv22"
+            android:layout_alignRight="@id/iv22"
+            android:layout_alignBottom="@id/iv22"/>
+
+        <ImageView
+            android:src="@drawable/p4"
+            android:layout_marginTop="18dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iv23" />
+
+        <TextView
+            android:id="@+id/tv23"
+            android:text="Chasing Shadows-the most Haunted places in Delhi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_alignLeft="@id/iv23"
+            android:layout_alignTop="@id/iv23"
+            android:layout_alignRight="@id/iv23"
+            android:layout_alignBottom="@id/iv23"/>
+
+        <ImageView
+            android:src="@drawable/p5"
+            android:layout_marginTop="18dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iv24" />
+
+        <TextView
+            android:id="@+id/tv24"
+            android:text="The best Museums and Galleries in India"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_alignLeft="@id/iv24"
+            android:layout_alignTop="@id/iv24"
+            android:layout_alignRight="@id/iv24"
+            android:layout_alignBottom="@id/iv24"/>
+
+    </LinearLayout>
+</ScrollView>
