@@ -1,5 +1,4 @@
-# DelhiTour
-Delhi Tour and Travelism app
+# Delhi Tour
 A guide app that help you to find out places to visit in Delhi,providing all types places according to your taste.
 
 KEY FEATURES
